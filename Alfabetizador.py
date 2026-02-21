@@ -3,7 +3,7 @@ def alfabetizador_nombres(nombres):
 
 if __name__ == "__main__":
     import sys
-
+# Solicitar al usuario que ingrese los nombres separados por comas
     entrada = input("Introduce los nombres separados por comas (ej: María, Juan, Ana): ").strip()
     if not entrada:
         print("No se ingresaron nombres. Ejecuta el programa e ingresa al menos un nombre.")
